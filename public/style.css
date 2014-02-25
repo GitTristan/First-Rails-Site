@@ -1,0 +1,17 @@
+body {
+  background-color: #00FFAA
+}
+
+p {
+  color: blue;
+  font-style: italic;
+}
+
+h1 {
+  color: red;
+  font-style: ;
+}
+
+#page-title{
+  font-weight: bold;
+}

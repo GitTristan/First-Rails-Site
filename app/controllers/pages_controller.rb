@@ -9,7 +9,9 @@ class PagesController < ApplicationController
   
   def contact
     @name = params[:name]
-    
+  end
+  
+  def resume
   end
   
 end

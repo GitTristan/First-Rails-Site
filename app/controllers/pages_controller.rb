@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
   
   def home
-    @animals = ["cat","dog","mouse"]
+    @animals = ["cat","dog","mouse","bird","rabbit"]
   end
   
   def about

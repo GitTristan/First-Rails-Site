@@ -10,6 +10,17 @@ I think I like this stuff
 </ol>
 
 <div>
-  
+</div>
   <%= Time.now %>
-  
+  <div>
+  </div>
+  <% if @name %>
+<p>Hello <%= @name %>
+<% end %>
+
+<form>
+  <label>Name</label>
+  <input type="input" name="name" />
+
+  <input type="submit" />
+</form>
